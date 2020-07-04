@@ -1,0 +1,833 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>明日科技</title>
+    <!-- Bootstrap -->
+    <link href="./bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+.ln-guild {
+  clear: both;
+  position: fixed;
+  right: 0;
+  top: 78px;
+  z-index: 0;
+}
+
+</style>
+</head>
+<body class="bg-primary">
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid bg-info">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">明日考试网</a>
+    </div>
+	
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">在线模考</a></li>
+        <li><a href="#">考试题库</a></li>
+        <li><a href="#">相关资料</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">倒计时 50:32</a></li>
+        <li><a href="#">晚上好,尊敬的会员:aa123456</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container bg-warning" style="padding-top: 65px;">
+		
+	<h3 class="text-primary text-center"><span class="glyphicon glyphicon-tags"></span><span style="padding-left: 9px;">某某科目模拟测试(卷一)</span></h3>
+	<div class="well text-primary">
+	<span class="glyphicon glyphicon-book">试卷说明:</span>
+	<br />
+	<ol>
+		<li>本卷共分为三大题100小题,作答时间为120分钟,总分100分.</li>
+		<li>试题年份:2016</li>
+		<li>试卷来源:考试资料网在线考试中心.</li>
+        <li>鼠标左键双击标题可在答题卡制作标记.</li>
+	</ol>
+	</div>
+	<table class="table table-hover" style="color: 000000;">
+		<tbody>
+		  <tr class="success" ondblclick="setFlag(1)">
+		  	<th>
+		  		<a name="a1" id="a1" style="padding-top: 61px;"></a>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.[<a href="javascript:void(0)" onclick="setFlag(1)">答题标记</a>]</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		   <tr class="success">
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 
+		 <tbody>
+		  <tr>
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 <tbody>
+		  <tr>
+		  	<th>
+		  		<h4><span class="glyphicon glyphicon-paperclip text-danger"></span>1.测试问题1234567890.</h4>
+		  	</th>
+		  </tr>
+		  <tr>
+		  	<td>
+		  		<ol class="text-primary" style="font-size: 14px;">
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  			<li>
+		  				<div class="checkbox">
+		  					<label><input type="checkbox" value="option1" aria-label="...">测试问题答案ABCD啦啦啦</label>
+		  				</div>
+		  			</li>
+		  		</ol>
+		  	</td>
+		  </tr>
+		 </tbody>
+		 
+		
+	</table>
+</div>
+
+<div id="card_body" class="ln-guild">
+	<div class="panel panel-success">
+		<div class="panel-heading">
+			答题卡
+		</div>
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" id="dtk1" onclick="goIndex(1)">01</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">02</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">03</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">04</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">05</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">06</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">07</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">08</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">09</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">10</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">11</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">12</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">13</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">14</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">15</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">16</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">17</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">18</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">19</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">20</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">21</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">22</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">23</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">24</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">19</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">20</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">21</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">22</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">23</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">24</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">19</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">20</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">21</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">22</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">23</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">24</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">19</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">20</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">21</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">22</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">23</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">24</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">19</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">20</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">21</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">22</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">23</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">24</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">19</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">20</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">21</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">22</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">23</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">24</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">19</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">20</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">21</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">22</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">23</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">24</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">19</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">20</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">21</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">22</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">23</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">24</a></div>
+			</div>
+			<div class="row">
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">19</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">20</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">21</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">22</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">23</a></div>
+				<div class="col-xs-2"><a class="btn btn-info btn-xs" href="javascript:void(0);" onclick="alert('goIndex_')">24</a></div>
+			</div>
+		</div>
+		<div class="panel-footer">
+			<button type="button" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-pencil"></span>交卷</button>
+		</div>
+	</div>
+</div>
+
+
+    <script src="./bootstrap-3.3.5-dist/js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script type="text/javascript" src="./bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	function setFlag(flag){
+    		if ($("#dtk"+flag).hasClass('btn-info')){
+    			$("#dtk"+flag).removeClass('btn-info').addClass('btn-warning');
+    		}else{
+    			$("#dtk"+flag).removeClass('btn-warning').addClass('btn-info');
+    		}
+    	}
+    	function goIndex (flag){
+    		window.location.hash = "a"+flag;
+    		window.location.href = "#a"+flag;
+    	}
+    </script>
+</body>
+</html>
